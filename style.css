@@ -649,6 +649,17 @@ span.page{
 .cont1 a .img6{
     background-image: url(https://www.domin.co.kr/news/photo/201604/1104659_240719_2925.jpg);
 }
+
+/* //4page img// */
+.cont1 a .img7{
+    background-image: url(https://i.postimg.cc/DZ4xFQk9/111.png);
+}
+.cont1 a .img8{
+    background-image: url(https://jpassets.jobplanet.co.kr/production/uploads/company_story/contents/2022/07/25/e4eed36c-3bb8-4937-99b7-de903c9867db.png);
+}
+.cont1 a .img9{
+    background-image: url(https://i.postimg.cc/brxf8cv5/dfaf.png);
+}
 .cont1 a .imgbox1{
     width: 373px;
     height: 228px;
