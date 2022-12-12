@@ -629,12 +629,46 @@ span.page{
 }
 .cont1 a{
     color: #424242;
+    overflow: hidden;
 }
-.cont1 a img{
+.cont1 a .img1{
+    background-image: url(https://www.ck.ac.kr/wp-content/uploads/2015/05/IMG_2934-740x493.jpg);
+}
+.cont1 a .img2{
+    background-image: url(https://i.postimg.cc/zXjpqw5j/Group-140.png);
+}
+.cont1 a .img3{
+    background-image: url(https://cdn.news.unn.net/news/photo/201909/218793_102017_3658.jpg);
+}
+.cont1 a .img4{
+    background-image: url(https://cdn.news.unn.net/news/photo/201904/209774_91646_456.jpg);
+}
+.cont1 a .img5{
+    background-image: url(https://i.postimg.cc/9M0K3xss/278938045-712203346884133-5003545610605466638-n.jpg);
+}
+.cont1 a .img6{
+    background-image: url(https://www.domin.co.kr/news/photo/201604/1104659_240719_2925.jpg);
+}
+.cont1 a .imgbox1{
     width: 373px;
     height: 228px;
     border-radius: 10px;
     box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.2);
+    /* background-position: center;
+    background-size: cover; */
+    overflow: hidden;
+    
+}
+.cont1 a .img:hover{
+    transform: scale(1.05);
+    transition: all .3s ease;
+}
+.cont1 a .img{
+    width: 373px;
+    height: 228px;
+    background-position: center;
+    background-size: cover;
+    transition: all .3s ease;
 }
 .cont1 a p{
     margin-top: 20px;
@@ -2044,3 +2078,19 @@ a.more2{
 
 
  
+
+
+div.hero_txt{
+    opacity: 0;
+    filter: blur(4px);
+        animation: slow 1s  forwards ease-in;
+}
+
+
+@keyframes slow{
+     0%{}
+    100% {
+        opacity: 1;
+        filter: blur(0);
+    }
+}
