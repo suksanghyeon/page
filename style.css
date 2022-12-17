@@ -1844,12 +1844,15 @@ a.arrow2 img{
 }
 .pro1{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     width: 994px;
     margin: 0;
     padding: 40px 0;
     border-bottom: 2px solid #A89EE840;
     position: relative;
+}
+.pro_txt{
+	margin-left:40px;
 }
 .pro_image{
     overflow: hidden; width: 167px; height: 100px; border-radius:12px; margin: 0;box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.2);
