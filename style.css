@@ -465,12 +465,12 @@ a.more::after{
     background:url(https://post-phinf.pstatic.net/MjAyMDAzMDZfMjkg/MDAxNTgzNDcyMDMzOTg2.SYoDCuQD1thnQaTOgOinGc3Paw85MPmsesTEIGnyv5Eg.rZHY9NavKj8UdLGfJOj2NBIw6IMmY04gkHrNn1Qt3iog.JPEG/%EC%A0%9C%EB%AA%A9_%EC%97%86%EC%9D%8C-8.jpg?type=w1200);
     background-size: cover;
     background-position: center;
-    width: 460px;
+    width: 477px;
     height: 278px;
     border-radius: 20px;
     position: absolute;
     top: 20px;
-    left: 120px;
+    left: 103px;
     display: block;
     animation: main2 8s linear infinite;
     box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.2);
@@ -479,7 +479,7 @@ a.more::after{
     content: '[산사람] 12월의 동아리 산사람과 함께 클라이밍을 경험해보세요.';
     position: absolute;
     top: 130px;
-    left: 568px;
+    left: 620px;
     width: 320px;
     font-size: 20px;
     animation: main2_txt 8s ease infinite;
@@ -487,27 +487,27 @@ a.more::after{
     color: #fff;
 }
 .main_2 h3{
-    margin-left: 688px;
+    margin-left: 722px;
     padding-top: 0px;
     font-size: 28px;
     font-weight: bold;
     color: #fff;
 }
 .main_2 h4{
-    margin-left: 688px;
+    margin-left: 723px;
     padding-top: 48px;
     font-size: 20px;
     font-weight: bold;
     color: rgba(255, 255, 255, 0.57);
 }
 .main_2bar{
-    width: 370px;
+    width: 374px;
     height: 2px;
     background-color: #ddd;
     position: absolute;
-    top: 288px;
-    left: 75%;
-    transform: translateX(-50%);
+    top: 286px;
+    left: 798px;
+    /* transform: translateX(-50%); */
 }
 .main_2bar::before{
     content: '01/03';
@@ -586,13 +586,13 @@ a.more::after{
 }
 @keyframes page{
     33%{
-        width: 123px;;
+        width: 124px;;
     }
     66%{
-        width: 246px;;
+        width: 248px;;
     }
     99%{
-        width: 370px;;
+        width: 374px;;
     }
 }
 
@@ -650,6 +650,7 @@ span.page{
     background-image: url(https://www.domin.co.kr/news/photo/201604/1104659_240719_2925.jpg);
 }
 
+
 /* //4page img// */
 .cont1 a .img7{
     background-image: url(https://i.postimg.cc/DZ4xFQk9/111.png);
@@ -660,6 +661,9 @@ span.page{
 .cont1 a .img9{
     background-image: url(https://i.postimg.cc/brxf8cv5/dfaf.png);
 }
+
+
+
 .cont1 a .imgbox1{
     width: 373px;
     height: 228px;
@@ -736,7 +740,7 @@ header.page2 a.lng::after{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image:url(https://www.ggc.edu/sebin/l/a/hero_academics_laptop-glasses_1600x400.jpg);
+    background-image:url(https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
 }
 .hero2_gra{
     width: 100%;
@@ -943,7 +947,7 @@ align-items:center
     font-size: 36px;
   }
   .hero2_txt p{
-    color: #E2A6FF;
+    color: #D6B6DE;
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 4px; 
@@ -1824,6 +1828,7 @@ a.arrow2 img{
 .hero_5 .subpage_tit{
     margin: 0;
 }
+
 .page5_1{
     margin-top: 80px;
     width: 1200px;
@@ -1862,6 +1867,7 @@ a.arrow2 img{
     margin-top: 14px;
     display: inline-block;
     position: relative;
+    margin-right: 12px;
     
 }
 .reaction{
